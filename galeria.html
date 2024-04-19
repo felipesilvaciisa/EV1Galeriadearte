@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta http-equiv="content-type" content=”text/html; charset=UTF-8″ />
+    <title>Galería</title>
+    <style>
+        body {
+            background-color: #d0f0c0; /* color de fondo celeste */
+            color: #000080; /* color de texto azul oscuro */
+        }
+        a {
+            color: #0000ff; /* color de enlace azul */
+        }
+        a:hover {
+            color: #1e90ff; /* color de enlace cuando el cursor pasa por encima (hover) */
+        }
+        img {
+            width: 200px; /* ancho de las imágenes */
+            height: 200px; /* alto de las imágenes */
+            margin: 10px; /* margen alrededor de las imágenes */
+        }
+    </style>
+    <script>
+        function changeColor() {
+            document.body.style.backgroundColor = "#add8e6"; /* cambia el color de fondo a un celeste más claro */
+        }
+        window.onload = changeColor; /* llama a la función cuando se carga la página */
+    </script>
+</head>
+<body>
+<h1>Galería de Arte</h1>
+<img src="gallery1.png" alt="Obra de arte 1">
+<img src="gallery2.jpg" alt="Obra de arte 2">
+<img src="gallery3.jpg" alt="Obra de arte 3">
+<img src="gallery4.png" alt="Obra de arte 4">
+<nav>
+    <a href="index.html">Inicio</a> |
+    <a href="contacto.html">Contacto</a>
+</nav>
+</body>
+</html>
